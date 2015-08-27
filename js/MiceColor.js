@@ -1,8 +1,8 @@
 var coatColorCollection = [
-		{"geneCode":"AABB", "coatColor":"Black"},
-		{"geneCode":"AaBb", "coatColor":"Brown"},
-		{"geneCode":"aaBB", "coatColor":"white"}
-	];
+	{"geneCode":"AABB", "coatColor":"Black"},
+	{"geneCode":"AaBb", "coatColor":"Brown"},
+	{"geneCode":"aaBB", "coatColor":"white"}
+];
 
 
 var coatColor = function(agouti, black) {
@@ -28,8 +28,6 @@ var ViewModel = function(agouti, black) {
 	
 	
 };
-
-
 
 ko.applyBindings(new ViewModel("AA", "BB"));
 

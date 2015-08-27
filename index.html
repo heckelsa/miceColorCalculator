@@ -9,8 +9,17 @@
     <body>
 
     <div class="GeneCode">
-        <p><b>Agouti:</b> <input data-bind="value: agouti" /></p>
-        <p><b>Black:</b> <input data-bind="value: black" /></p>
+        <p><b>Agouti:</b> <select name="agouti" data-bind="value: agouti">
+							<option>AA</option>
+							<option>Aa</option>
+							<option>aa</option>
+							</select> 
+							</p>
+        <p><b>Black:</b> <select name="agouti" data-bind="value: black">
+							<option>BB</option>
+							<option>Bb</option>
+							<option>bb</option>
+							</select></p>
         <h3>The full Gene Code is: <span data-bind="text: currentCoatColor"> </span></h3>
 
     </div>
