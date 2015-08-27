@@ -9,18 +9,101 @@
     <body>
 
     <div class="GeneCode">
-        <p><b>Agouti:</b> <select name="agouti" data-bind="value: agouti">
-							<option>AA</option>
-							<option>Aa</option>
-							<option>aa</option>
-							</select> 
-							</p>
-        <p><b>Black:</b> <select name="agouti" data-bind="value: black">
-							<option>BB</option>
-							<option>Bb</option>
-							<option>bb</option>
-							</select></p>
-        <h3>The full Gene Code is: <span data-bind="text: currentCoatColor"> </span></h3>
+
+        <h1>Mouse Color Calculator</h1>
+
+        <h3>The Color is: <span data-bind="text: currentCoatColor"> </span></h3>
+
+        <h2>Self Colors</h2>
+        <p><b>Agouti-Locus:</b><br /> 
+            <select name="agouti1" data-bind="value: agouti1">
+                <option>A</option>
+				<option>a</option>
+                <option>A&#x2b8;</option>
+                <option>A&#x1d5b;&#x2b8;</option>
+                <option>A&#x2b7;</option>
+                <option>a&#x1d57;</option>
+                <option>a&#x1d49;</option>
+			</select>
+            <select name="agouti2" data-bind="value: agouti2">
+                <option>A</option>
+                <option>a</option>
+                <option>A&#x2b8;</option>
+                <option>A&#x1d5b;&#x2b8;</option>
+                <option>A&#x2b7;</option>
+                <option>a&#x1d57;</option>
+                <option>a&#x1d49;</option>
+            </select>
+        </p>
+
+        <p><b>Black/Brown-Locus:</b><br /> 
+            <select name="black1" data-bind="value: black1">
+				<option>B</option>
+				<option>b</option>
+                <option>b&#x1d9c;</option>
+			</select>
+            <select name="black2" data-bind="value: black2">
+                <option>B</option>
+                <option>b</option>
+                <option>b&#x1d9c;</option>
+            </select>
+        </p>
+
+        <p><b>Albino-Locus:</b><br /> 
+            <select name="albino1" data-bind="value: albino1">
+                <option>C</option>
+                <option>c</option>
+                <option>c&#x2b0;</option>
+                <option>c&#x1d9c;&#x2b0;</option>
+                <option>c&#x1d49;</option>
+            </select>
+            <select name="albino2" data-bind="value: albino2">
+                <option>C</option>
+                <option>c</option>
+                <option>c&#x2b0;</option>
+                <option>c&#x1d9c;&#x2b0;</option>
+                <option>c&#x1d49;</option>
+            </select>
+        </p>
+
+        <p><b>Dilut-Locus:</b><br /> 
+            <select name="dilution1" data-bind="value: dilution1">
+                <option>D</option>
+                <option>d</option>
+            </select>
+            <select name="dilution2" data-bind="value: dilution2">
+                <option>D</option>
+                <option>d</option>
+            </select>
+        </p>
+
+        <p><b>Extension-Locus:</b><br /> 
+            <select name="extension1" data-bind="value: extension1">
+                <option>E</option>
+                <option>E&#x2e2;&#x1d52;</option>
+                <option>E&#x1d57;&#x1d52;</option>
+                <option>e</option>
+            </select>
+            <select name="extension2" data-bind="value: extension2">
+                <option>E</option>
+                <option>E&#x2e2;&#x1d52;</option>
+                <option>E&#x1d57;&#x1d52;</option>
+                <option>e</option>
+            </select>
+        </p>
+
+        <p><b>Pink Eyed-Locus:</b><br /> 
+            <select name="pinkeyed1" data-bind="value: pinkeyed1">
+                <option>P</option>
+                <option>p</option>
+            </select>
+            <select name="pinkeyed2" data-bind="value: pinkeyed2">
+                <option>P</option>
+                <option>p</option>
+            </select>
+        </p>
+
+        
 
     </div>
 
